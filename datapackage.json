@@ -1,0 +1,30 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "data\\car2022.csv",
+            "profile": "tabular-data-resource",
+            "name": "car2022",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "The Republic Of Kazakhstan",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "3 909,62",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
