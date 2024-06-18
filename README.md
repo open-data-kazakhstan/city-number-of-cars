@@ -1,4 +1,8 @@
 # city-avg-salary
+
+## Description
+Main data are in the file `car-amount-rate.csv` and column car-amount-rate describes amount of car for 1000 people by [eurostat](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20240117-1) standarts
+
 ## Installation 
 
 Clone the repository
@@ -39,6 +43,8 @@ We processed the original data to bring them back to normal, and extracted sever
 
 * `car2022.xlsx` - contains information of 2022 year 
 * `datapackage.json` - contains all the key information about our dataset
+* `car-amount-rate.csv` - contains data about number of cars for 1000 people
+* `city_population` - data about population in each region collected from repository [city-population](https://github.com/open-data-kazakhstan/city-population)
 
 ## Scripts
 
